@@ -55,15 +55,10 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
-import Button from "../../Button"; // plasmic-import: WNoPdp2TUL0b/component
-
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import projectcss from "./plasmic.module.css"; // plasmic-import: 3tfavHgZw46Q2spXSS6bmf/projectcss
 import sty from "./PlasmicLogin.module.css"; // plasmic-import: 1zeuGDPa2dmH/css
-
-import CircleIcon from "./icons/PlasmicIcon__Circle"; // plasmic-import: TYUtSE6TCJS2/icon
-import ChevronDown2Icon from "./icons/PlasmicIcon__ChevronDown2"; // plasmic-import: RD5rGEvsIUbD/icon
 
 createPlasmicElementProxy;
 
@@ -324,9 +319,6 @@ function PlasmicLogin__RenderFunc(props: {
             >
               {"Regisztr\u00e1ljon most!"}
             </div>
-            <Button
-              className={classNames("__wab_instance", sty.button__dzUb8)}
-            />
           </div>
         </div>
       </div>
