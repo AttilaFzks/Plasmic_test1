@@ -311,7 +311,7 @@ function PlasmicHomepage__RenderFunc(props: {
 
                     $steps["goToNewPage"] = true
                       ? (() => {
-                          const actionArgs = { destination: `/new-page` };
+                          const actionArgs = { destination: `/login` };
                           return (({ destination }) => {
                             if (
                               typeof destination === "string" &&

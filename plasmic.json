@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "inlined",
@@ -227,7 +227,8 @@
           "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerDialog"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "3tfavHgZw46Q2spXSS6bmf",
@@ -265,17 +266,17 @@
         },
         {
           "id": "1zeuGDPa2dmH",
-          "name": "NewPage",
+          "name": "Login",
           "type": "managed",
           "projectId": "3tfavHgZw46Q2spXSS6bmf",
-          "renderModuleFilePath": "plasmic/website_starter/PlasmicNewPage.tsx",
+          "renderModuleFilePath": "plasmic/website_starter/PlasmicLogin.tsx",
           "importSpec": {
-            "modulePath": "NewPage.tsx"
+            "modulePath": "Login.tsx"
           },
-          "cssFilePath": "plasmic/website_starter/PlasmicNewPage.module.css",
+          "cssFilePath": "plasmic/website_starter/PlasmicLogin.module.css",
           "scheme": "blackbox",
           "componentType": "page",
-          "path": "/new-page"
+          "path": "/login"
         }
       ],
       "icons": [
